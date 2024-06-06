@@ -2,6 +2,10 @@
 
 This is a simple web-based implementation of the classic Etch-a-Sketch toy using HTML, CSS, and JavaScript.
 
+## Live Preview
+
+Check out the live preview of the website here. https://brianbobby.github.io/Etch-a-Sketch/
+
 ## Description
 
 Etch-a-Sketch allows users to draw on a grid by moving their cursor over it. The project includes the following features:
