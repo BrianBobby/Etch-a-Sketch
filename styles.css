@@ -1,69 +1,60 @@
 p {
-    font-size: 50px;
-    font-family: JokerMan;
-    color: rgb(10, 92, 10);
-  }
-  body {
-    background-color: #f4efb3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-    flex-direction: column;
-    height: 100%;
-  }
-  .main-container{
-      display: flex;
-      gap: 50px;
-      width: 100%;
-      justify-content: space-between;
-      align-items: flex-start;
-      box-sizing: border-box;
-      width: 100%;
-      padding-left: 600px;
-      padding-right: 400px;
-      margin: 10px;
-  }
-  .btncontainer{
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-      padding-top: 40px;
-      
-  }
-  .btncontainer button {
-    width: 200px;
-    height: 100px;
-    padding: 10px;
-    font-size: 27px;
-    font-weight: bold;
-    margin: 5px;
-    color: blue;
-    background-color: #ece6c2;
-    border: 7px solid rebeccapurple;
-    border-radius: 70px;
+  font-size: 30px;
+  font-family: JokerMan;
+  color: rgb(10, 92, 10);
+  margin-bottom: 20px;
+}
+body {
+  background-color: #f4efb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  height: 100vh;
+}
 
-  }
-  .container {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 10px solid rgb(35, 34, 34);
-    box-sizing: border-box;
-  }
-  .row {
-    display: flex;
-    text-align: center;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .element {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    background-color: antiquewhite;
-    opacity: 0; /* Initialize opacity */
-  }
+.main-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.btncontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btncontainer button {
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+  background-color: #ece6c2;
+  border: 4px solid rebeccapurple;
+  border-radius: 35px;
+}
+
+.container {
+  display: grid;
+  border: 5px solid rgb(35, 34, 34);
+  box-sizing: border-box;
+  width: 550px;  /* Adjusted width */
+  height: 550px; /* Adjusted height to make it square */
+}
+
+.element {
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  opacity: 0;
+  width: 100%;  /* Ensure the element takes full width of the grid cell */
+  aspect-ratio: 1 / 1; /* Maintain 1:1 aspect ratio */
+}
