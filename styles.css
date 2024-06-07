@@ -41,6 +41,7 @@ body {
   background-color: #ece6c2;
   border: 4px solid rebeccapurple;
   border-radius: 35px;
+  cursor: pointer;
 }
 
 .container {
