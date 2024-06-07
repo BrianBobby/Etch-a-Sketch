@@ -18,9 +18,11 @@ function sizeButton() {
     if (input >= 1 && input <= 200) {
         size = input; // Update the grid size
         generateGrid(input);
-    } else if (isNaN(input)) {
+    }
+    else if (isNaN(input)) {
         return;
-    } else {
+    }
+    else {
         alert("Please Enter a Number between 1 and 200.");
         sizeButton();
     }
@@ -69,7 +71,8 @@ function applyShading() {
             if (currentOpacity < 1) {
                 element.style.opacity = (currentOpacity + 0.1).toFixed(1);
                 element.style.backgroundColor = "black";
-            } else {
+            }
+            else {
                 element.style.backgroundColor = "black";
             }
         });
